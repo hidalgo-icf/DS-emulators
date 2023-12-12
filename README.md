@@ -1,12 +1,12 @@
 # DS-emulators
 
-Welcome! This repository houses a non-linear and linear matter spectrum emulator of Dark Scattering (DS) model built upon the framework of the halo model reaction. In addition, a baryonic feedback emulator based on ``HMC0DE2016_FEEDBACK``. 
+Welcome! This repository hosts a linear and a non-linear matter spectrum emulators of the Dark Scattering (DS) model built upon the framework of the halo model reaction. Additionally, a baryonic feedback emulator based on ``HMC0DE2016_FEEDBACK``. 
 
 Comprehensive documentation of ``CosmoPower`` is available [here](https://alessiospuriomancini.github.io/cosmopower).
 
 # Documentation
 
-Since these emulators were trained by ``CosmoPower``, we recommend using them within a [Conda](https://docs.conda.io/projects/conda/en/latest/index.html) virtual environment. 
+Since all these emulators were trained by ``CosmoPower``, we recommend using them within a [Conda](https://docs.conda.io/projects/conda/en/latest/index.html) virtual environment. 
 
 For example, to create an environment called ``emu_env``, use:
 
@@ -38,12 +38,12 @@ Once inside the environment, you can install ``CosmoPower``:
 
         pytest
 
-You are now ready to start utilizing the emulators! 
+and if passed, you are now ready to start using the emulators! 
 
 
 # Getting Started:
 
-To get started with usage of emulators, please ensure that you check the validity range of the input parameters for each emulator. 
+To get started with the use of emulators, please make sure you check the validity range of the input parameters for each emulator. 
 
 ## Emulators validity
 
@@ -62,7 +62,7 @@ To get started with usage of emulators, please ensure that you check the validit
 |      'z'      | [0,5] | Redshift |
 
 
-Please feel free to look at the `notebooks` directory to find a comprehensive tutorial scripts designed to guide you through the usage of our emulators. Whether you're a beginner or an experienced user, these tutorials cover essential tasks such as emulators setup, manage, and visualization.
+Please feel free to look at the `notebooks` directory to find comprehensive tutorial scripts designed to guide you through our emulators. Whether you're a beginner or an experienced user, these tutorials cover essential tasks such as emulators setup, management, and visualization.
 
 ## Emulators accuracy
 
@@ -89,7 +89,7 @@ We provide visual representations of the accuracy of the emulators. The figures 
 
 # Citation
 
-If you use the emulators from this repository in your research, please consider citing the original [release paper](https://arxiv.org/abs/2106.03846):
+If you use the emulators from this repository in your research, please cite the original [release paper](https://arxiv.org/abs/2106.03846):
 
     @article{
              TBA
